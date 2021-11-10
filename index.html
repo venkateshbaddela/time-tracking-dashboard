@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-top">
+        <img src="images/image-jeremy.png" alt="personimage" class="main-img" />
+
+        <div class="main-top__content">
+          <p class="main-txt">Report for</p>
+          <h1 class="main-head">Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="main-bot">
+        <ul class="main-list">
+          <li class="main-list__item">
+            <button class="main-list__btn btn-daily" data-value="daily">
+              Daily
+            </button>
+          </li>
+          <li class="main-list__item">
+            <button class="main-list__btn btn-weekly" data-value="weekly">
+              Weekly
+            </button>
+          </li>
+          <li class="main-list__item">
+            <button class="main-list__btn btn-monthly" data-value="monthly">
+              Monthly
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="box work">
+        <div class="work-img box-img">
+          <img src="images/icon-work.svg" alt="illustration" class="img" />
+        </div>
+        <div class="work-box box-main">
+          <div class="box-sub">
+            <h2 class="work-head box-head">Work</h2>
+
+            <button class="work-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box play">
+        <div class="play-img box-img">
+          <img src="images/icon-play.svg" alt="illustration" class="img" />
+        </div>
+        <div class="play-box box-main">
+          <div class="box-sub">
+            <h2 class="play-head box-head">Play</h2>
+            <button class="play-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box study">
+        <div class="study-img box-img">
+          <img src="images/icon-study.svg" alt="illustration" class="img" />
+        </div>
+        <div class="study-box box-main">
+          <div class="box-sub">
+            <h2 class="study-head box-head">Study</h2>
+            <button class="study-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box exe">
+        <div class="exe-img box-img">
+          <img src="images/icon-exercise.svg" alt="illustration" class="img" />
+        </div>
+        <div class="exe-box box-main">
+          <div class="box-sub">
+            <h2 class="exe-head box-head">Exercise</h2>
+            <button class="exe-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box soc">
+        <div class="soc-img box-img">
+          <img src="images/icon-social.svg" alt="illustration" class="img" />
+        </div>
+        <div class="soc-box box-main">
+          <div class="box-sub">
+            <h2 class="soc-head box-head">Social</h2>
+            <button class="soc-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box care">
+        <div class="care-img box-img">
+          <img src="images/icon-self-care.svg" alt="illustration" class="img" />
+        </div>
+        <div class="care-box box-main">
+          <div class="box-sub">
+            <h2 class="care-head box-head">Self care</h2>
+            <button class="care-btn box-btn">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="box-txt">
+            <p class="box-txt__main">0hrs</p>
+            <p class="box-txt__sub">Select time tracking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">venkateshb</a>.
+    </div>
+  </body>
+</html>
